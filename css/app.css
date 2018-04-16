@@ -1,0 +1,61 @@
+img {
+    max-width: 100%;
+    margin: 5px;
+}
+
+.grids {
+    margin-top: 50px;
+}
+
+.form-card {
+    margin-top: 50px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+    flex: 1 0 auto;
+}
+
+.about-container {
+    margin-top: 100px;
+}
+
+.about-me-image {
+    margin-bottom: 20px;
+}
+
+.about-me-links {
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #eee;
+    font-size: 1.5rem;
+}
+
+.fas {
+    font-size: 3rem;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 360px) {
+    .fab, a.brand-logo {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .fab {
+        margin-top: 17px;
+    }
+}
+
